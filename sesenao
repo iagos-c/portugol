@@ -1,0 +1,21 @@
+Algoritmo "se-senao"
+
+Var
+nome: caractere
+rg: inteiro
+
+Inicio
+
+escreva("Informe seu nome: ")
+leia(nome)
+
+escreva("Informe seu RG: ")
+leia(rg)
+
+se (rg > 99999) entao
+   escreva("RG valido")
+senao
+   escreva("RG invalido")
+fimse
+
+Fimalgoritmo
