@@ -1,0 +1,16 @@
+algoritmo "numeros"
+var
+numinicial, numfinal, i: inteiro
+
+inicio
+escreva("digite o numero inicial: ")
+leia(numinicial)
+escreva("digite o numero final: ")
+leia(numfinal)
+i <- numinicial
+repita
+escreval(i)
+i <- i + 1
+ate (i > numfinal)
+escreva("fim")
+fimalgoritmo
