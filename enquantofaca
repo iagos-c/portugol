@@ -1,0 +1,17 @@
+algoritmo "enquantofaça"
+
+var
+n: inteiro
+
+inicio
+escreval("O programa fará contagem decrescente de valores até 0.")
+escreva("Insira um número: ")
+leia(n)
+enquanto (n >= 0) faca
+escreval(n)
+
+n <- n - 1
+
+fimenquanto
+
+fimalgoritmo
