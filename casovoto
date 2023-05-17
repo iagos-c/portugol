@@ -1,0 +1,21 @@
+algoritmo "caso-voto"
+
+var
+idade, anoatual, nasc: inteiro
+
+inicio
+escreva("Digite o ano corrente: ")
+leia(anoatual)
+escreva("Digite o seu ano de nascimento: ")
+leia(nasc)
+idade := anoatual - nasc
+escolha(idade)
+caso 0 ate 15
+escreval(idade, " anos. Não vota")
+caso 18 ate 70
+escreval(idade, " anos, o voto é obrigatório")
+outrocaso
+escreval(idade, " anos, o voto é opcional")
+fimescolha
+
+fimalgoritmo
